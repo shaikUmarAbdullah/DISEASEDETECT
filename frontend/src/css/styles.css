@@ -1,0 +1,61 @@
+/* styles.css */
+.container {
+    max-width: 600px;
+    margin: 30px;
+    padding: 20px;
+  }
+  
+  .uploadButton {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border:0px solid;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resultContainer {
+    margin-top: 20px;
+    border: 3px solid #ddd;
+    border-radius: 5%;
+    padding: 15px;
+  }
+  
+  .errorText {
+    color: red;
+    margin-top: 20px;
+  }
+  
+  @media(max-width:440px) {
+    .container {
+      max-width: 600px;
+      padding: 5px;
+      margin-right: 10px;
+    }
+    .resultContainer {
+      margin-top: 20px;
+      border: 3px solid #ddd;
+      border-radius: 5%;
+      padding: 15px;
+      margin-right: 50px;
+    }
+    .uploadButton {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+  }
+
+  @media screen and (max-width: 800px) and (min-width: 450px)
+  {
+    .resultContainer {
+      margin-top: 20px;
+      border: 3px solid #ddd;
+      border-radius: 5%;
+      padding: 15px;
+      margin-right: 50px;
+    }
+  }

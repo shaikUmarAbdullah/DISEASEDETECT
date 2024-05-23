@@ -1,0 +1,37 @@
+.App {
+  display: block;
+  padding-left: 250px;
+  padding-top: 150px;
+  background-image: url("../public/bg.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: rgb(237, 241, 245);
+  margin-bottom: 30px;
+  font-size: larger;
+}
+
+h1{
+  margin-left: 30px;
+}
+
+@media(max-width:440px) {
+  .App{
+      background-image: url("../public/bg.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      margin-left: 0px;
+      padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 450px)
+{
+  .App{
+    background-image: url("../public/bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+}
